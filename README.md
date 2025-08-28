@@ -1,0 +1,1 @@
+A Python script to generate maps containing the clubs taking part at the UEFA competitions, using `pandas`, `matplotlib` and `cartopy`.
