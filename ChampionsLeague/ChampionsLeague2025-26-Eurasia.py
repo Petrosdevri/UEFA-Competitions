@@ -3,12 +3,12 @@ import cartopy.crs as ccrs
 import cartopy.feature as cfeature
 
 fig, ax = plt.subplots(figsize=(12, 10), subplot_kw={'projection': ccrs.LambertConformal(
-                                                    central_longitude=10, central_latitude=52, standard_parallels=(35, 65))
+                                                    central_longitude=60, central_latitude=45, standard_parallels=(30, 60))
                                                     })
 ax.add_feature(cfeature.BORDERS, edgecolor='#001839')
 ax.add_feature(cfeature.LAND, facecolor='#d1dbdd')
 ax.add_feature(cfeature.OCEAN, facecolor='#001839')
-ax.set_extent([-25, 50, 28, 72])
+ax.set_extent([20, 90, 30, 60])
 
 teams = {
     "Ajax": (52.31437534854556, 4.941837968250409),
@@ -53,6 +53,6 @@ for team, (lat, lon) in teams.items():
     ax.plot(lon, lat, 'ro', markersize=2, transform=ccrs.PlateCarree(), label='')
 
 
-plt.title('UEFA Champions League 2025-26', fontsize=15)
-plt.savefig('ChampionsLeague/UEFA Champions League 2025-26.png', dpi=300, bbox_inches='tight')
+plt.title('UEFA Champions League 2025-26 (Eurasia)', fontsize=15)
+plt.savefig('ChampionsLeague/UEFA Champions League 2025-26 (Eurasia).png', dpi=300, bbox_inches='tight')
 plt.show()
