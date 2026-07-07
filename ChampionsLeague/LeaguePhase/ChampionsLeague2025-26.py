@@ -54,5 +54,5 @@ for team, (lat, lon) in teams.items():
 
 
 plt.title('UEFA Champions League 2025-26', fontsize=15)
-plt.savefig('ChampionsLeague/UEFA Champions League 2025-26.png', dpi=300, bbox_inches='tight')
+plt.savefig('ChampionsLeague/LeaguePhase/UEFA Champions League 2025-26.png', dpi=300, bbox_inches='tight')
 plt.show()
