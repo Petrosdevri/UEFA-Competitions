@@ -12,6 +12,10 @@ champions-league-2026-27-first-round:
 
 conference-league-2025-26:
 	make run-script COMPETITION=ConferenceLeague SEASON=ConferenceLeague2025-26
+conference-league-2026-27:
+	make run-script COMPETITION=ConferenceLeague SEASON=ConferenceLeague2026-27
 
 europa-league-2025-26:
 	make run-script COMPETITION=EuropaLeague SEASON=EuropaLeague2025-26
+europa-league-2026-27:
+	make run-script COMPETITION=EuropaLeague SEASON=EuropaLeague2026-27
