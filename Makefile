@@ -5,6 +5,8 @@ champions-league-2025-26:
 	make run-script COMPETITION=ChampionsLeague ROUND=LeaguePhase SEASON=ChampionsLeague2025-26
 champions-league-2025-26-eurasia:
 	make run-script COMPETITION=ChampionsLeague ROUND=LeaguePhase SEASON=ChampionsLeague2025-26-Eurasia
+champions-league-2025-26-play-ins:
+	make run-script COMPETITION=ChampionsLeague ROUND=Play-Ins SEASON=ChampionsLeague2025-26
 champions-league-2026-27:
 	make run-script COMPETITION=ChampionsLeague ROUND=LeaguePhase SEASON=ChampionsLeague2026-27
 champions-league-2026-27-first-round:
